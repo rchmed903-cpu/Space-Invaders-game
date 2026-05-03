@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Invaders</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="si-wrap">
+    <div id="si-hud">
+      <div>SCORE <span id="si-score">0</span></div>
+      <div>LEVEL <span id="si-level">1</span></div>
+      <div>LIVES <span id="si-lives">♥ ♥ ♥</span></div>
+      <div>HI <span id="si-hi">0</span></div>
+    </div>
+    <canvas id="si-canvas" width="560" height="420"></canvas>
+    <div id="si-msg">PRESS SPACE OR TAP START</div>
+    <div id="si-controls">
+      <button id="si-start-btn">START</button>
+    </div>
+    <div id="si-mobile">
+      <button id="si-left-btn">◀ LEFT</button>
+      <button id="si-fire-btn">▲ FIRE</button>
+      <button id="si-right-btn">RIGHT ▶</button>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
